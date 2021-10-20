@@ -29,6 +29,7 @@ export class CargaDetalleAveComponent implements OnInit, OnChanges, AfterViewIni
   cargandoDetalleAve: boolean = false;
   detalleAve!: DetalleAve;
 
+ 
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {

@@ -8,6 +8,7 @@ import { ListaAvesComponent } from './componentes/lista-aves/lista-aves.componen
 import { DetalleListaAveComponent } from './componentes/detalle-lista-ave/detalle-lista-ave.component';
 import { CargaDetalleAveComponent } from './componentes/carga-detalle-ave/carga-detalle-ave.component';
 import { RobotComponent } from './componentes/robot/robot.component';
+import { Tarea2Component } from './componentes/tarea2/tarea2.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RobotComponent } from './componentes/robot/robot.component';
     ListaAvesComponent,
     DetalleListaAveComponent,
     CargaDetalleAveComponent,
-    RobotComponent
+    RobotComponent,
+    Tarea2Component
   ],
   imports: [
     BrowserModule,
